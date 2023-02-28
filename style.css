@@ -31,6 +31,9 @@ h2{
 h3{
     font-size: 1.4rem;
 }
+h5{
+    font-size: 0.95rem;
+}
 
 .flex{
     display: flex;
@@ -345,4 +348,163 @@ nav a{
 }
 .side-items a{
     color: black;
+}
+.section5{
+    margin-block: 160px;
+}
+.payment-section{
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 60px;
+
+}
+.sec5-intro{
+    text-align: center;
+}
+
+.payLite,.payPro{
+    width: 40%;
+    /* border: 2px solid red; */
+    height: auto;
+    border-radius: 12px;
+}
+.payLite{
+    border-bottom: 3px solid rgba(128, 128, 128, 0.105);
+}
+.payLite, .payPro{
+    padding: 40px 35px 20px;
+}
+.lite-header, .pro-header{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.price h3, .proPrice h3{
+    font-size: 2rem;
+}
+.price, .proPrice{
+    text-align: end;
+}
+.main-list-left ul li, .main-list-right ul li{
+    margin-block: 20px;
+    
+}
+.main-list-left h4, .main-list-right h4{
+    margin-bottom: 35px;
+}
+.main-list-left ul li i, .main-list-right ul li i{
+    margin-right: 15px;
+}
+.plbtn{
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #1089ff;
+    color: white;
+    border: none;
+    margin-block: 30px;
+    transition: 0.3s ease-in-out;
+    
+}
+.ppbtn{
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    color: #1089ff;
+    border: none;
+    margin-block: 30px;
+    transition: 0.3s ease-in-out;
+}
+.plbtn:hover{
+    background-color: rgba(0, 0, 0, 0.850);
+}
+.ppbtn:hover{
+    background-color: rgba(0, 0, 0, 0.850);
+    color: white;
+}
+.payPro{
+    background-color: #1089ff;
+    color: white;
+}
+.payPro p{
+    color: white;
+}
+
+.sec6-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sec6-header h3{
+    margin-bottom: 20px;
+}
+
+.sec6-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 30px;
+
+}
+.section6 h4{
+    margin-bottom: 15px;
+}
+
+hr{
+    margin-top: 10px;
+    opacity: 0.1;
+}
+
+.section6-bg{
+    background-color: #f3f7fb;
+    padding-block: 100px;
+}
+.foot-top{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.contact-us-btn{
+    width: 180px;
+    height: 60px;
+    background-color: #1089ff;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.contact-us-btn:hover{
+    background-color: rgba(0, 0, 0, 0.837);
+}
+.foot-bottom{
+    justify-content: space-between;
+    margin-top:40px ;
+    padding-bottom: 40px;
+}
+.com-logo img{
+    width: 130px;
+}
+.hr{
+    opacity: 0.4;
+}
+footer{
+    background-color: #f3f7fb;
+}
+.foot-span{
+    color:rgb(104, 103, 103);
+}
+footer h2{
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 1.15rem;
 }
