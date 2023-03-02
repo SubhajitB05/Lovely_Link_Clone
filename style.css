@@ -9,7 +9,9 @@
     /* overflow: hidden; */
     font-family: 'Lato',sans-serif;
 }
-
+body{
+    overflow-x: hidden;
+}
 p{
     line-height: 1.8;
     color: rgb(104, 103, 103);
@@ -62,7 +64,6 @@ header {
 nav a{
     color: white;
 }
-
 .company-logo img{
     width: 130px;
 }
@@ -186,6 +187,7 @@ nav a{
     gap: 20px;
     width: 60%;
     margin: auto;
+    padding-top: 20px;
 }
 
 .card-items{
@@ -337,9 +339,17 @@ nav a{
     left: 12.5%;
 }
 
-.sidebar{
-    display: none;
-}
+/* .sidebar{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 10%;
+    right: -100%;
+    z-index: 2000000000;
+    padding: 60px;
+    transition: 0.3s ease-in;
+} */
 .side-items{
     flex-direction: column;
     gap: 30px;
@@ -350,7 +360,7 @@ nav a{
     color: black;
 }
 .section5{
-    margin-block: 160px;
+    margin: 160px 50px;
 }
 .payment-section{
     justify-content: center;
@@ -363,8 +373,20 @@ nav a{
     text-align: center;
 }
 
+.tick{
+    color: rgb(5, 217, 129);
+    margin-right: 15px;
+}
+.tick1{
+    color:white ;
+    margin-right: 15px;
+}
+.check-list-left, .check-list-right{
+    flex-direction: column;
+    gap: 20px;
+}
 .payLite,.payPro{
-    width: 40%;
+    width: 445px;
     /* border: 2px solid red; */
     height: auto;
     border-radius: 12px;
