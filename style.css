@@ -67,6 +67,12 @@ nav a{
 .company-logo img{
     width: 130px;
 }
+
+img:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
 .nav-left{
     gap: 30px;
     align-items: center;
